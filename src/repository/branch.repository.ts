@@ -1,5 +1,5 @@
-import { ParameterModel } from "../schemas/extraTypes/Parameter.js";
-import { Sucursal } from "../schemas/Sucursal.js";
+import { ParameterModel } from "../schemas/extraTypes/parameter.schema.js";
+import { Sucursal } from "../schemas/sucursal.schema.js";
 import { query } from "./query.js";
 
 export const branchRepository = {

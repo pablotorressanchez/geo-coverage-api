@@ -1,9 +1,9 @@
-import { commonRepository } from "../db/commonRepository.js";
+import { commonRepository } from "../repository/common.repository.js";
 import { ItemCollectionModel } from "../schemas/common/ItemCollectionModel.js";
 import { SelectValueModel } from "../schemas/common/SelectValueModel.js";
-import { ParameterModel } from "../schemas/extraTypes/Parameter.js";
-import { branchService } from "./branchService.js";
-import { coverageService } from "./coverageService.js";
+import { ParameterModel } from "../schemas/extraTypes/parameter.schema.js";
+import { branchService } from "./branch.service.js";
+import { coverageService } from "./coverage.service.js";
 
 export const commonService = {
     getGroups: async (param: ParameterModel) => {

@@ -1,8 +1,8 @@
 import express, { Request, Response } from 'express';
-import { commonService } from '../services/commonService.js';
-import { Parameter } from '../schemas/extraTypes/Parameter.js';
+import { commonService } from '../services/common.service.js';
+import { Parameter } from '../schemas/extraTypes/parameter.schema.js';
 import { SelectValueModel } from '../schemas/common/SelectValueModel.js';
-import { coverageService } from '../services/coverageService.js';
+import { coverageService } from '../services/coverage.service.js';
 export const router = express.Router();
 
 router.post('/branches/company', async (req: Request, res: Response) => {

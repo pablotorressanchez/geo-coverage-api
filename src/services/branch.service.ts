@@ -1,8 +1,8 @@
-import { branchRepository } from "../db/branchRepository.js";
+import { branchRepository } from "../repository/branch.repository.js";
 import { ItemCollectionModel } from "../schemas/common/ItemCollectionModel.js";
 import { SelectValueModel } from "../schemas/common/SelectValueModel.js";
-import { ParameterModel } from "../schemas/extraTypes/Parameter.js";
-import { Sucursal } from "../schemas/Sucursal.js";
+import { ParameterModel } from "../schemas/extraTypes/parameter.schema.js";
+import { Sucursal } from "../schemas/sucursal.schema.js";
 
 export const branchService = {
     getBranchById: async (param: ParameterModel) => {

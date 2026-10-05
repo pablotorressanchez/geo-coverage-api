@@ -1,5 +1,5 @@
-import { Company } from "../schemas/Company.js";
-import { ParameterModel } from "../schemas/extraTypes/Parameter.js";
+import { Company } from "../schemas/company.schema.js";
+import { ParameterModel } from "../schemas/extraTypes/parameter.schema.js";
 import { query } from "./query.js";
 
 export const companyRepository = {

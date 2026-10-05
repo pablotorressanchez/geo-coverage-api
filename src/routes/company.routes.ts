@@ -1,6 +1,6 @@
 import express, { Request, Response } from 'express';
-import { Parameter } from '../schemas/extraTypes/Parameter.js';
-import { companyService } from '../services/companyService.js';
+import { Parameter } from '../schemas/extraTypes/parameter.schema.js';
+import { companyService } from '../services/company.service.js';
 export const router = express.Router();
 
 router.post('/', async (req: Request, res: Response) => {

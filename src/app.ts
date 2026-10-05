@@ -2,9 +2,9 @@ import express from 'express';
 import { config } from './config/confCors.js';
 import cors from 'cors';
 import http from 'http';
-import { router as commonRouter } from './routes/commonRoute.js';
-import { router as companyRouter } from './routes/companyRoute.js';
-import { router as coverageRouter } from './routes/coverageRoute.js';
+import { router as commonRouter } from './routes/common.routes.js';
+import { router as companyRouter } from './routes/company.routes.js';
+import { router as coverageRouter } from './routes/coverage.routes.js';
 
 const app = express();
 const server = http.createServer(app); 

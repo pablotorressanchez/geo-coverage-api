@@ -1,5 +1,5 @@
-import { companyRepository } from "../db/companyRepository.js";
-import { Parameter, ParameterModel } from "../schemas/extraTypes/Parameter.js";
+import { companyRepository } from "../repository/company.repository.js";
+import { Parameter, ParameterModel } from "../schemas/extraTypes/parameter.schema.js";
 
 export const companyService = {
     getCompanies: async (param: ParameterModel) => {

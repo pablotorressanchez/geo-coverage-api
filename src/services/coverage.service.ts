@@ -1,11 +1,11 @@
-import { coverageRepository } from "../db/coverageRepository.js";
+import { coverageRepository } from "../repository/coverage.repository.js";
 import { ItemCollectionModel } from "../schemas/common/ItemCollectionModel.js";
 import { SelectValueModel } from "../schemas/common/SelectValueModel.js";
-import { Parameter, ParameterModel } from "../schemas/extraTypes/Parameter.js";
+import { Parameter, ParameterModel } from "../schemas/extraTypes/parameter.schema.js";
 import { FeatureModel, GeomType, polygonStyle } from "../schemas/geojson/types.js";
-import { Polygon } from "../schemas/Polygon.js";
-import { Sucursal } from "../schemas/Sucursal.js";
-import { branchService } from "./branchService.js";
+import { Polygon } from "../schemas/polygon.schema.js";
+import { Sucursal } from "../schemas/sucursal.schema.js";
+import { branchService } from "./branch.service.js";
 import { wktToGeoJSON } from '@terraformer/wkt';
 
 export const coverageService = {

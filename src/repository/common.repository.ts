@@ -1,5 +1,5 @@
 import { SelectValueModel } from "../schemas/common/SelectValueModel.js";
-import { ParameterModel } from "../schemas/extraTypes/Parameter.js";
+import { ParameterModel } from "../schemas/extraTypes/parameter.schema.js";
 import { query } from "./query.js";
 
 export const commonRepository = {

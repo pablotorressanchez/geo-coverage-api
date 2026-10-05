@@ -1,6 +1,6 @@
 import express, { Request, Response } from 'express';
-import { commonService } from '../services/commonService.js';
-import { Parameter } from '../schemas/extraTypes/Parameter.js';
+import { commonService } from '../services/common.service.js';
+import { Parameter } from '../schemas/extraTypes/parameter.schema.js';
 export const router = express.Router();
 
 router.get('/groups', async (req: Request, res: Response) => {
