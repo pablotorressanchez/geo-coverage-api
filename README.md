@@ -4,7 +4,7 @@ REST API for managing geographic coverage data and spatial operations.
 
 ## 📂 Project Structure
 
-\`\`\`text
+```text
 └── src/
     ├── app.ts            # Application entry point
     ├── config/           # Database configurations and global variables
@@ -12,7 +12,7 @@ REST API for managing geographic coverage data and spatial operations.
     ├── services/         # Core business logic
     ├── schemas/          # Data layer (Models and DB validations)
     └── utils/            # Utility functions and helper scripts
-\`\`\`
+```
 
 ## 🛠️ Architecture and Layers
 
